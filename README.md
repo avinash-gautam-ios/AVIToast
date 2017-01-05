@@ -38,7 +38,7 @@ Just Drag and Drop <b>AVIToastViewController.h</b> and <b>AVIToastViewController
 +(void)showToastOnView:(UIView *_Nonnull)view withString:(NSString *_Nonnull)text withBackgroundColor:(UIColor *_Nonnull)backColor withFontColor:(UIColor *_Nonnull)fontColor withAVToastPosition:(AVToastLocationStatus)toastLocation withAVToastAnimation:(AVToastAnimationStatus)toastAnimation forDuration:(AVToastDurationStatus)duration;
 
 ```
-#### Full Customization
+### Full Customization
 ```
 +(void)showAVToastOnView:(UIView *_Nonnull)view withString:(NSString *_Nonnull)text forDuration:(AVToastDurationStatus)duration withFontSize:(CGFloat)fontSize withAVToastPosition:(AVToastLocationStatus)toastLocation withAVToastAnimation:(AVToastAnimationStatus)toastAnimation withAlpha:(CGFloat)toastAlpha withAVBackGroundColor:( UIColor * _Nullable )backColor withAVFontColor:(UIColor * _Nullable)fontColor;
 
@@ -72,11 +72,12 @@ AVToastLocationScreenTop
 AVToastLocationScreenBottom   //default
 AVToastLocationScreenCenter
 ```
-## Using Properties
+## Changes Using Properties
 ```
 [AVIToastViewController singleton].AVToastBackgroundColor = [UIColor orangeColor];
 [AVIToastViewController singleton].AVToastLabelColor = [UIColor blackColor];
 [AVIToastViewController singleton].AVToastDuration = 5.0  //custom duration in float
+[AVIToastViewController showToastOnView:self.view withString:@"Your String goes here"];
 ```
 ## Authors
 * **Avinash Kumar Gautam** - *Start to Complete*
