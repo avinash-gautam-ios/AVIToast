@@ -13,12 +13,12 @@ ARC
 ## Installation
 Just Drag and Drop <b>AVIToastViewController.h</b> and <b>AVIToastViewController.m</b> files into your Project and then you are good to go.
 
-## Simple Useage
+## Simple Usage
 <b>Show a Simple Toast on screen</b>(default position is Screen Bottom, default Animation is Fade-In Animation, with default duration)
 ```
 [AVIToastViewController showToastOnView:self.view withString:@"Your String goes here"];
 ```
-## Customized Useage
+## Customized Usage
 ### Methods
 ```
 +(void)showToastOnView:(UIView * _Nonnull)view withString:(NSString * _Nonnull)text forDuration:(AVToastDurationStatus)duration;
