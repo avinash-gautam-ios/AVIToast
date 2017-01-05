@@ -38,14 +38,14 @@ Just Drag and Drop <b>AVIToastViewController.h</b> and <b>AVIToastViewController
 +(void)showToastOnView:(UIView *_Nonnull)view withString:(NSString *_Nonnull)text withBackgroundColor:(UIColor *_Nonnull)backColor withFontColor:(UIColor *_Nonnull)fontColor withAVToastPosition:(AVToastLocationStatus)toastLocation withAVToastAnimation:(AVToastAnimationStatus)toastAnimation forDuration:(AVToastDurationStatus)duration;
 
 ```
-<b>Example :</b>
-```
-[AVIToastViewController showAVToastOnView:self.view withString:@"Your String goes here" forDuration:AVToastDurationNormal withFontSize:11 withAVToastPosition:AVToastLocationScreenBottom withAVToastAnimation:AVToastAnimationFade withAlpha:0.8 withAVBackGroundColor:[UIColor orangeColor] withAVFontColor:[UIColor blackColor]];
-```
 #### Full Customization
 ```
 +(void)showAVToastOnView:(UIView *_Nonnull)view withString:(NSString *_Nonnull)text forDuration:(AVToastDurationStatus)duration withFontSize:(CGFloat)fontSize withAVToastPosition:(AVToastLocationStatus)toastLocation withAVToastAnimation:(AVToastAnimationStatus)toastAnimation withAlpha:(CGFloat)toastAlpha withAVBackGroundColor:( UIColor * _Nullable )backColor withAVFontColor:(UIColor * _Nullable)fontColor;
 
+```
+<b>Example :</b>
+```
+[AVIToastViewController showAVToastOnView:self.view withString:@"Your String goes here" forDuration:AVToastDurationNormal withFontSize:11 withAVToastPosition:AVToastLocationScreenBottom withAVToastAnimation:AVToastAnimationFade withAlpha:0.8 withAVBackGroundColor:[UIColor orangeColor] withAVFontColor:[UIColor blackColor]];
 ```
 ### Duration Parameters (AVToastDurationStatus)
 ```
@@ -72,4 +72,17 @@ AVToastLocationScreenTop
 AVToastLocationScreenBottom   //default
 AVToastLocationScreenCenter
 ```
+## Using Properties
+```
+[AVIToastViewController singleton].AVToastBackgroundColor = [UIColor orangeColor];
+[AVIToastViewController singleton].AVToastLabelColor = [UIColor blackColor];
+[AVIToastViewController singleton].AVToastDuration = 5.0  //custom duration in float
+```
+## Authors
+* **Avinash Kumar Gautam** - *Start to Complete*
 
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+* Adeesh Jain
