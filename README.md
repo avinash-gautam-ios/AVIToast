@@ -47,7 +47,7 @@ Just Drag and Drop <b>AVIToastViewController.h</b> and <b>AVIToastViewController
 +(void)showAVToastOnView:(UIView *_Nonnull)view withString:(NSString *_Nonnull)text forDuration:(AVToastDurationStatus)duration withFontSize:(CGFloat)fontSize withAVToastPosition:(AVToastLocationStatus)toastLocation withAVToastAnimation:(AVToastAnimationStatus)toastAnimation withAlpha:(CGFloat)toastAlpha withAVBackGroundColor:( UIColor * _Nullable )backColor withAVFontColor:(UIColor * _Nullable)fontColor;
 
 ```
-#### Duration Parameters (AVToastDurationStatus)
+### Duration Parameters (AVToastDurationStatus)
 ```
 AVToastDurationLong
 AVToastDurationShort
