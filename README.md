@@ -4,3 +4,7 @@ Toast is just a simple and an elegant way to show small and intutive messages to
 # Demo
 ![AviToastDemo](https://raw.githubusercontent.com/avistyles/AVIToast/master/AVIToastExampleGif.gif)
 
+# Requirements
+Xcode 7.3+
+iOS 7+
+ARC
