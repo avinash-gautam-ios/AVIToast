@@ -47,7 +47,7 @@ Just Drag and Drop <b>AVIToastViewController.h</b> and <b>AVIToastViewController
 ```
 [AVIToastViewController showAVToastOnView:self.view withString:@"Your String goes here" forDuration:AVToastDurationNormal withFontSize:11 withAVToastPosition:AVToastLocationScreenBottom withAVToastAnimation:AVToastAnimationFade withAlpha:0.8 withAVBackGroundColor:[UIColor orangeColor] withAVFontColor:[UIColor blackColor]];
 ```
-### Deleagte
+### Delegate
 The Delegate will be called when Toast will Finish Displaying, just in order to perform the next action i.e after Toast.
 ```
 <AVToastDisplayEndDelegate>
