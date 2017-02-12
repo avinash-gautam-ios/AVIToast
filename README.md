@@ -96,7 +96,7 @@ AVToastLocationScreenCenter
 * **Avinash Kumar Gautam** - *Start to Complete*
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/avistyles/AVIToast/blob/master/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/avistyles/AVIToast/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 * Adeesh Jain
